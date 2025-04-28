@@ -1,0 +1,5 @@
+cycle1	1	244
+cycle2	3	234
+cycle1	2	214
+cycle2	5	127
+cycle2	1	118

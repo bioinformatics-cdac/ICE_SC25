@@ -1,0 +1,10 @@
+parm /drive/testuser/inputs_pentapeptide/em_nowat.pdb
+trajin /drive/testuser/outputs_pentapeptide/Cycle1/Run1/md_nowat_wh_nojump.xtc
+trajin /drive/testuser/outputs_pentapeptide/Cycle1/Run2/md_nowat_wh_nojump.xtc
+trajin /drive/testuser/outputs_pentapeptide/Cycle1/Run3/md_nowat_wh_nojump.xtc
+trajin /drive/testuser/outputs_pentapeptide/Cycle1/Run4/md_nowat_wh_nojump.xtc
+trajin /drive/testuser/outputs_pentapeptide/Cycle1/Run5/md_nowat_wh_nojump.xtc
+reference /drive/testuser/inputs_pentapeptide/em_nowat.pdb
+rms reference
+trajout /drive/testuser/outputs_pentapeptide/Cycle1/all_traj.xtc XTC
+go
